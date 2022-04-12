@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pick.profile.Profile">
+   <children>
+      <AnchorPane layoutX="53.0" layoutY="60.0" prefHeight="136.0" prefWidth="128.0" style="-fx-border-color: #000;">
+         <children>
+            <WebView fx:id="avatar" prefHeight="136.0" prefWidth="131.0" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="nick" layoutX="246.0" layoutY="60.0" text="NickName">
+         <font>
+            <Font size="48.0" />
+         </font></Label>
+      <AnchorPane layoutX="20.0" layoutY="264.0" prefHeight="591.0" prefWidth="200.0" style="-fx-border-color: #000;" />
+      <AnchorPane layoutX="282.0" layoutY="264.0" prefHeight="591.0" prefWidth="1203.0" style="-fx-border-color: #000;">
+         <children>
+            <AnchorPane layoutX="31.0" layoutY="21.0">
+               <children>
+                  <AnchorPane layoutX="2.0" layoutY="2.0" prefHeight="37.0" prefWidth="49.0" style="-fx-border-color: #000;">
+                     <children>
+                        <WebView fx:id="hero" layoutX="-2.0" layoutY="-2.0" prefHeight="37.0" prefWidth="56.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="70.0" layoutY="2.0">
+                     <children>
+                        <Label fx:id="hero_name" text="HeroName" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="70.0" layoutY="21.0">
+                     <children>
+                        <Label fx:id="skill" text="Skill" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="246.0" layoutY="2.0">
+                     <children>
+                        <Label fx:id="result" text="Win/Lose" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="246.0" layoutY="21.0">
+                     <children>
+                        <Label fx:id="data" text="date" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="401.0" layoutY="2.0">
+                     <children>
+                        <Label fx:id="mode_game" text="Reiting/ AP" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="557.0" layoutY="2.0">
+                     <children>
+                        <Label fx:id="match_time" text="Time Match" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="684.0" layoutY="2.0">
+                     <children>
+                        <Label fx:id="kda" text="K/D/A" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

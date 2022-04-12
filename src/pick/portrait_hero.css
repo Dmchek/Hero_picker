@@ -1,0 +1,1551 @@
+.abaddon {
+    -fx-image: url("portrait/npc_dota_hero_abaddon.jpg");
+}
+
+.abaddon:hover {
+    -fx-image: url("portrait_hero/npc_dota_hero_abaddon.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h0{
+    -fx-image: url("portrait_hero/npc_dota_hero_abaddon.gif");
+}
+
+.alchemist{
+    -fx-image: url("portrait/npc_dota_hero_alchemist.jpg");
+    -fx-scale-z: 1;
+}
+
+.alchemist:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_alchemist.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+
+.h1{
+    -fx-image: url("portrait_hero/npc_dota_hero_alchemist.gif");
+
+}
+
+.axe{
+    -fx-image: url("portrait/npc_dota_hero_axe.jpg");
+}
+
+.axe:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_axe.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h2{
+    -fx-image: url("portrait_hero/npc_dota_hero_axe.gif");
+}
+
+.beastmaster{
+    -fx-image: url("portrait/npc_dota_hero_beastmaster.jpg");
+}
+
+.beastmaster:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_beastmaster.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h3{
+    -fx-image: url("portrait_hero/npc_dota_hero_beastmaster.gif");
+}
+
+.brewmaster {
+    -fx-image: url("portrait/npc_dota_hero_brewmaster.jpg");
+}
+
+.brewmaster:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_brewmaster.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h4{
+    -fx-image: url("portrait_hero/npc_dota_hero_brewmaster.gif");
+}
+
+.bristleback {
+    -fx-image: url("portrait/npc_dota_hero_bristleback.jpg");
+}
+
+.bristleback:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_bristleback.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h5{
+    -fx-image: url("portrait_hero/npc_dota_hero_bristleback.gif");
+}
+
+.centaur {
+    -fx-image: url("portrait/npc_dota_hero_centaur.jpg");
+}
+
+.centaur:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_centaur.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h6{
+    -fx-image: url("portrait_hero/npc_dota_hero_centaur.gif");
+}
+
+.chaos_knight {
+    -fx-image: url("portrait/npc_dota_hero_chaos_knight.jpg");
+}
+
+.chaos_knight:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_chaos_knight.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h7{
+    -fx-image: url("portrait_hero/npc_dota_hero_chaos_knight.gif");
+}
+
+.rattletrap {
+    -fx-image: url("portrait/npc_dota_hero_rattletrap.jpg");
+}
+
+.rattletrap:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_rattletrap.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h8{
+    -fx-image: url("portrait_hero/npc_dota_hero_rattletrap.gif");
+}
+
+.doom_bringer {
+    -fx-image: url("portrait/npc_dota_hero_doom_bringer.jpg");
+}
+
+.doom_bringer:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_doom_bringer.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h9{
+    -fx-image: url("portrait_hero/npc_dota_hero_doom_bringer.gif");
+}
+
+.dragon_knight {
+    -fx-image: url("portrait/npc_dota_hero_dragon_knight.jpg");
+}
+
+.dragon_knight:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_dragon_knight.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h10{
+    -fx-image: url("portrait_hero/npc_dota_hero_dragon_knight.gif");
+}
+
+.earth_spirit {
+    -fx-image: url("portrait/npc_dota_hero_earth_spirit.jpg");
+}
+
+.earth_spirit:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_earth_spirit.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h11{
+    -fx-image: url("portrait_hero/npc_dota_hero_earth_spirit.gif");
+}
+
+.earthshaker {
+    -fx-image: url("portrait/npc_dota_hero_earthshaker.jpg");
+}
+
+.earthshaker:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_earthshaker.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h12{
+    -fx-image: url("portrait_hero/npc_dota_hero_earthshaker.gif");
+}
+
+.elder_titan {
+    -fx-image: url("portrait/npc_dota_hero_elder_titan.jpg");
+}
+
+.elder_titan:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_elder_titan.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h13{
+    -fx-image: url("portrait_hero/npc_dota_hero_elder_titan.gif");
+}
+
+.huskar {
+    -fx-image: url("portrait/npc_dota_hero_huskar.jpg");
+}
+
+.huskar:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_huskar.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h14{
+    -fx-image: url("portrait_hero/npc_dota_hero_huskar.gif");
+}
+
+.wisp {
+    -fx-image: url("portrait/npc_dota_hero_wisp.jpg");
+}
+
+.wisp:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_wisp.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h15{
+    -fx-image: url("portrait_hero/npc_dota_hero_wisp.gif");
+}
+
+.kunkka {
+    -fx-image: url("portrait/npc_dota_hero_kunkka.jpg");
+}
+
+.kunkka:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_kunkka.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h16{
+    -fx-image: url("portrait_hero/npc_dota_hero_kunkka.gif");
+}
+
+.legion_commander {
+    -fx-image: url("portrait/npc_dota_hero_legion_commander.jpg");
+}
+
+.legion_commander:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_legion_commander.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h17{
+    -fx-image: url("portrait_hero/npc_dota_hero_legion_commander.gif");
+}
+
+.life_stealer {
+    -fx-image: url("portrait/npc_dota_hero_life_stealer.jpg");
+}
+
+.life_stealer:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_life_stealer.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h18{
+    -fx-image: url("portrait_hero/npc_dota_hero_life_stealer.gif");
+}
+
+.lycan {
+    -fx-image: url("portrait/npc_dota_hero_lycan.jpg");
+}
+
+.lycan:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_lycan.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h19{
+    -fx-image: url("portrait_hero/npc_dota_hero_lycan.gif");
+}
+
+.magnataur {
+    -fx-image: url("portrait/npc_dota_hero_magnataur.jpg");
+}
+
+.magnataur:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_magnataur.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h20{
+    -fx-image: url("portrait_hero/npc_dota_hero_magnataur.gif");
+}
+
+.mars {
+    -fx-image: url("portrait/npc_dota_hero_mars.jpg");
+}
+
+.mars:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_mars.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h21{
+
+}
+
+.night_stalker {
+    -fx-image: url("portrait/npc_dota_hero_night_stalker.jpg");
+}
+
+.night_stalker:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_night_stalker.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h22{
+    -fx-image: url("portrait_hero/npc_dota_hero_night_stalker.gif");
+}
+
+
+.omniknight {
+    -fx-image: url("portrait/npc_dota_hero_omniknight.jpg");
+}
+
+.omniknight:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_omniknight.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h23{
+    -fx-image: url("portrait_hero/npc_dota_hero_omniknight.gif");
+}
+
+.phoenix {
+    -fx-image: url("portrait/npc_dota_hero_phoenix.jpg");
+}
+
+.phoenix:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_phoenix.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h24{
+    -fx-image: url("portrait_hero/npc_dota_hero_phoenix.gif");
+}
+
+.pudge {
+    -fx-image: url("portrait/npc_dota_hero_pudge.jpg");
+}
+
+.pudge:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_pudge.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h25{
+    -fx-image: url("portrait_hero/npc_dota_hero_pudge.gif");
+}
+
+.sand_king {
+    -fx-image: url("portrait/npc_dota_hero_sand_king.jpg");
+}
+
+.sand_king:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_sand_king.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h26{
+    -fx-image: url("portrait_hero/npc_dota_hero_sand_king.gif");
+}
+
+.slardar {
+    -fx-image: url("portrait/npc_dota_hero_slardar.jpg");
+}
+
+.slardar:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_slardar.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h27{
+    -fx-image: url("portrait_hero/npc_dota_hero_slardar.gif");
+}
+
+.snapfire {
+    -fx-image: url("portrait/npc_dota_hero_snapfire.jpg");
+}
+
+.snapfire:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_snapfire.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h28{
+    -fx-image: url("portrait_hero/npc_dota_hero_snapfire.gif");
+}
+
+.spirit_breaker {
+    -fx-image: url("portrait/npc_dota_hero_spirit_breaker.jpg");
+}
+
+.spirit_breaker:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_spirit_breaker.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h29{
+    -fx-image: url("portrait_hero/npc_dota_hero_spirit_breaker.gif");
+}
+
+.sven {
+    -fx-image: url("portrait/npc_dota_hero_sven.jpg");
+}
+
+.sven:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_sven.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h30{
+    -fx-image: url("portrait_hero/npc_dota_hero_sven.gif");
+}
+
+.tidehunter {
+    -fx-image: url("portrait/npc_dota_hero_tidehunter.jpg");
+}
+
+.tidehunter:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_tidehunter.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h31{
+    -fx-image: url("portrait_hero/npc_dota_hero_tidehunter.gif");
+}
+
+.shredder {
+    -fx-image: url("portrait/npc_dota_hero_shredder.jpg");
+}
+
+.shredder:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_shredder.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h32{
+    -fx-image: url("portrait_hero/npc_dota_hero_shredder.gif");
+}
+
+.tiny {
+    -fx-image: url("portrait/npc_dota_hero_tiny.jpg");
+}
+
+.tiny:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_tiny.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h33{
+    -fx-image: url("portrait_hero/npc_dota_hero_tiny.gif");
+}
+
+.treant {
+    -fx-image: url("portrait/npc_dota_hero_treant.jpg");
+}
+
+.treant:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_treant.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h34{
+    -fx-image: url("portrait_hero/npc_dota_hero_treant.gif");
+}
+
+.tusk {
+    -fx-image: url("portrait/npc_dota_hero_tusk.jpg");
+}
+
+.tusk:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_tusk.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h35{
+    -fx-image: url("portrait_hero/npc_dota_hero_tusk.gif");
+}
+
+.abyssal_underlord {
+    -fx-image: url("portrait/npc_dota_hero_abyssal_underlord.jpg");
+}
+
+.abyssal_underlord:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_abyssal_underlord.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h36{
+    -fx-image: url("portrait_hero/npc_dota_hero_abyssal_underlord.gif");
+}
+
+.undying {
+    -fx-image: url("portrait/npc_dota_hero_undying.jpg");
+}
+
+.undying:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_undying.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h37{
+    -fx-image: url("portrait_hero/npc_dota_hero_undying.gif");
+}
+
+.skeleton_king {
+    -fx-image: url("portrait/npc_dota_hero_skeleton_king.jpg");
+}
+
+.skeleton_king:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_skeleton_king.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h38{
+    -fx-image: url("portrait_hero/npc_dota_hero_skeleton_king.gif");
+}
+
+.antimage {
+    -fx-image: url("portrait/npc_dota_hero_antimage.jpg");
+}
+
+.antimage:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_antimage.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h39{
+    -fx-image: url("portrait_hero/npc_dota_hero_antimage.gif");
+}
+
+.arc_warden {
+    -fx-image: url("portrait/npc_dota_hero_arc_warden.jpg");
+}
+
+.arc_warden:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_arc_warden.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h40{
+    -fx-image: url("portrait_hero/npc_dota_hero_arc_warden.gif");
+}
+
+.bloodseeker {
+    -fx-image: url("portrait/npc_dota_hero_bloodseeker.jpg");
+}
+
+.bloodseeker:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_bloodseeker.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h41{
+    -fx-image: url("portrait_hero/npc_dota_hero_bloodseeker.gif");
+}
+
+.bounty_hunter {
+    -fx-image: url("portrait/npc_dota_hero_bounty_hunter.jpg");
+}
+
+.bounty_hunter:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_bounty_hunter.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h42{
+    -fx-image: url("portrait_hero/npc_dota_hero_bounty_hunter.gif");
+}
+
+.broodmother {
+    -fx-image: url("portrait/npc_dota_hero_broodmother.jpg");
+}
+
+.broodmother:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_broodmother.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h43{
+    -fx-image: url("portrait_hero/npc_dota_hero_broodmother.gif");
+}
+
+.clinkz {
+    -fx-image: url("portrait/npc_dota_hero_clinkz.jpg");
+}
+
+.clinkz:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_clinkz.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h44{
+    -fx-image: url("portrait_hero/npc_dota_hero_clinkz.gif");
+}
+
+.drow_ranger {
+    -fx-image: url("portrait/npc_dota_hero_drow_ranger.jpg");
+}
+
+.drow_ranger:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_drow_ranger.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h45{
+    -fx-image: url("portrait_hero/npc_dota_hero_drow_ranger.gif");
+}
+
+.ember_spirit {
+    -fx-image: url("portrait/npc_dota_hero_ember_spirit.jpg");
+}
+
+.ember_spirit:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_ember_spirit.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h46{
+    -fx-image: url("portrait_hero/npc_dota_hero_ember_spirit.gif");
+}
+
+.faceless_void {
+    -fx-image: url("portrait/npc_dota_hero_faceless_void.jpg");
+}
+
+.faceless_void:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_faceless_void.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h47{
+    -fx-image: url("portrait_hero/npc_dota_hero_faceless_void.gif");
+}
+
+.gyrocopter {
+    -fx-image: url("portrait/npc_dota_hero_gyrocopter.jpg");
+}
+
+.gyrocopter:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_gyrocopter.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h48{
+    -fx-image: url("portrait_hero/npc_dota_hero_gyrocopter.gif");
+}
+
+.juggernaut {
+    -fx-image: url("portrait/npc_dota_hero_juggernaut.jpg");
+}
+
+.juggernaut:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_juggernaut.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h49{
+    -fx-image: url("portrait_hero/npc_dota_hero_juggernaut.gif");
+}
+
+.lone_druid {
+    -fx-image: url("portrait/npc_dota_hero_lone_druid.jpg");
+}
+
+.lone_druid:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_lone_druid.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h50{
+    -fx-image: url("portrait_hero/npc_dota_hero_lone_druid.gif");
+}
+
+.luna {
+    -fx-image: url("portrait/npc_dota_hero_luna.jpg");
+}
+
+.luna:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_luna.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h51{
+    -fx-image: url("portrait_hero/npc_dota_hero_luna.gif");
+}
+
+.medusa {
+    -fx-image: url("portrait/npc_dota_hero_medusa.jpg");
+}
+
+.medusa:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_medusa.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h52{
+    -fx-image: url("portrait_hero/npc_dota_hero_medusa.gif");
+}
+
+.meepo {
+    -fx-image: url("portrait/npc_dota_hero_meepo.jpg");
+}
+
+.meepo:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_meepo.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h53{
+    -fx-image: url("portrait_hero/npc_dota_hero_meepo.gif");
+}
+
+.mirana {
+    -fx-image: url("portrait/npc_dota_hero_mirana.jpg");
+}
+
+.mirana:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_mirana.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h54{
+    -fx-image: url("portrait_hero/npc_dota_hero_mirana.gif");
+}
+
+.monkey_king {
+    -fx-image: url("portrait/npc_dota_hero_monkey_king.jpg");
+}
+
+.monkey_king:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_monkey_king.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h55{
+    -fx-image: url("portrait_hero/npc_dota_hero_monkey_king.gif");
+}
+
+.morphling {
+    -fx-image: url("portrait/npc_dota_hero_morphling.jpg");
+}
+
+.morphling:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_morphling.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h56{
+    -fx-image: url("portrait_hero/npc_dota_hero_morphling.gif");
+}
+
+.naga_siren {
+    -fx-image: url("portrait/npc_dota_hero_naga_siren.jpg");
+}
+
+.naga_siren:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_naga_siren.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h57{
+    -fx-image: url("portrait_hero/npc_dota_hero_naga_siren.gif");
+}
+
+.nyx_assassin {
+    -fx-image: url("portrait/npc_dota_hero_nyx_assassin.jpg");
+}
+
+.nyx_assassin:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_nyx_assassin.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h58{
+    -fx-image: url("portrait_hero/npc_dota_hero_nyx_assassin.gif");
+}
+
+.pangolier {
+    -fx-image: url("portrait/npc_dota_hero_pangolier.jpg");
+}
+
+.pangolier:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_pangolier.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h59{
+    -fx-image: url("portrait_hero/npc_dota_hero_pangolier.gif");
+}
+
+.phantom_assassin {
+    -fx-image: url("portrait/npc_dota_hero_phantom_assassin.jpg");
+}
+
+.phantom_assassin:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_phantom_assassin.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h60{
+    -fx-image: url("portrait_hero/npc_dota_hero_phantom_assassin.gif");
+}
+
+.phantom_lancer {
+    -fx-image: url("portrait/npc_dota_hero_phantom_lancer.jpg");
+}
+
+.phantom_lancer:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_phantom_lancer.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h61{
+    -fx-image: url("portrait_hero/npc_dota_hero_phantom_lancer.gif");
+}
+
+.razor {
+    -fx-image: url("portrait/npc_dota_hero_razor.jpg");
+}
+
+.razor:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_razor.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h62{
+    -fx-image: url("portrait_hero/npc_dota_hero_razor.gif");
+}
+
+.riki {
+    -fx-image: url("portrait/npc_dota_hero_riki.jpg");
+}
+
+.riki:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_riki.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h63{
+    -fx-image: url("portrait_hero/npc_dota_hero_riki.gif");
+}
+
+.nevermore {
+    -fx-image: url("portrait/npc_dota_hero_nevermore.jpg");
+}
+
+.nevermore:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_nevermore.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h64{
+    -fx-image: url("portrait_hero/npc_dota_hero_nevermore.gif");
+}
+
+.slark {
+    -fx-image: url("portrait/npc_dota_hero_slark.jpg");
+}
+
+.slark:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_slark.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h65{
+    -fx-image: url("portrait_hero/npc_dota_hero_slark.gif");
+
+}
+
+.sniper {
+    -fx-image: url("portrait/npc_dota_hero_sniper.jpg");
+}
+
+.sniper:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_sniper.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h66{
+    -fx-image: url("portrait_hero/npc_dota_hero_sniper.gif");
+}
+
+.spectre {
+    -fx-image: url("portrait/npc_dota_hero_spectre.jpg");
+}
+
+.spectre:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_spectre.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h67{
+    -fx-image: url("portrait_hero/npc_dota_hero_spectre.gif");
+}
+
+.templar_assassin {
+    -fx-image: url("portrait/npc_dota_hero_templar_assassin.jpg");
+}
+
+.templar_assassin:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_templar_assassin.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h68{
+    -fx-image: url("portrait_hero/npc_dota_hero_templar_assassin.gif");
+}
+
+.terrorblade {
+    -fx-image: url("portrait/npc_dota_hero_terrorblade.jpg");
+}
+
+.terrorblade:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_terrorblade.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h69{
+    -fx-image: url("portrait_hero/npc_dota_hero_terrorblade.gif");
+}
+
+.troll_warlord {
+    -fx-image: url("portrait/npc_dota_hero_troll_warlord.jpg");
+}
+
+.troll_warlord:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_troll_warlord.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h70{
+    -fx-image: url("portrait_hero/npc_dota_hero_troll_warlord.gif");
+}
+
+.ursa {
+    -fx-image: url("portrait/npc_dota_hero_ursa.jpg");
+}
+
+.ursa:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_ursa.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h71{
+    -fx-image: url("portrait_hero/npc_dota_hero_ursa.gif");
+}
+
+.vengefulspirit {
+    -fx-image: url("portrait/npc_dota_hero_vengefulspirit.jpg");
+}
+
+.vengefulspirit:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_vengefulspirit.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h72{
+    -fx-image: url("portrait_hero/npc_dota_hero_vengefulspirit.gif");
+}
+
+.venomancer {
+    -fx-image: url("portrait/npc_dota_hero_venomancer.jpg");
+}
+
+.venomancer:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_venomancer.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h73{
+    -fx-image: url("portrait_hero/npc_dota_hero_venomancer.gif");
+}
+
+.viper {
+    -fx-image: url("portrait/npc_dota_hero_viper.jpg");
+}
+
+.viper:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_viper.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h74{
+    -fx-image: url("portrait_hero/npc_dota_hero_viper.gif");
+}
+
+.weaver {
+    -fx-image: url("portrait/npc_dota_hero_weaver.jpg");
+}
+
+.weaver:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_weaver.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h75{
+    -fx-image: url("portrait_hero/npc_dota_hero_weaver.gif");
+}
+
+.ancient_apparition {
+    -fx-image: url("portrait/npc_dota_hero_ancient_apparition.jpg");
+}
+
+.ancient_apparition:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_ancient_apparition.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h76{
+    -fx-image: url("portrait_hero/npc_dota_hero_ancient_apparition.gif");
+}
+
+.bane {
+    -fx-image: url("portrait/npc_dota_hero_bane.jpg");
+}
+
+.bane:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_bane.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h77{
+    -fx-image: url("portrait_hero/npc_dota_hero_bane.gif");
+}
+
+.batrider {
+    -fx-image: url("portrait/npc_dota_hero_batrider.jpg");
+}
+
+.batrider:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_batrider.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h78{
+    -fx-image: url("portrait_hero/npc_dota_hero_batrider.gif");
+}
+
+.chen {
+    -fx-image: url("portrait/npc_dota_hero_chen.jpg");
+}
+
+.chen:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_chen.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h79{
+    -fx-image: url("portrait_hero/npc_dota_hero_chen.gif");
+}
+
+.crystal_maiden {
+    -fx-image: url("portrait/npc_dota_hero_crystal_maiden.jpg");
+}
+
+.crystal_maiden:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_crystal_maiden.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h80{
+    -fx-image: url("portrait_hero/npc_dota_hero_crystal_maiden.gif");
+}
+
+.dark_seer {
+    -fx-image: url("portrait/npc_dota_hero_dark_seer.jpg");
+}
+
+.dark_seer:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_dark_seer.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h81{
+    -fx-image: url("portrait_hero/npc_dota_hero_dark_seer.gif");
+}
+
+.dark_willow {
+    -fx-image: url("portrait/npc_dota_hero_dark_willow.jpg");
+}
+
+.dark_willow:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_dark_willow.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h82{
+    -fx-image: url("portrait_hero/npc_dota_hero_dark_willow.gif");
+}
+
+.dazzle {
+    -fx-image: url("portrait/npc_dota_hero_dazzle.jpg");
+}
+
+.dazzle:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_dazzle.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h83{
+    -fx-image: url("portrait_hero/npc_dota_hero_dazzle.gif");
+}
+
+.death_prophet {
+    -fx-image: url("portrait/npc_dota_hero_death_prophet.jpg");
+}
+
+.death_prophet:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_death_prophet.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h84{
+    -fx-image: url("portrait_hero/npc_dota_hero_death_prophet.gif");
+}
+
+.disruptor {
+    -fx-image: url("portrait/npc_dota_hero_disruptor.jpg");
+}
+
+.disruptor:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_disruptor.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h85{
+    -fx-image: url("portrait_hero/npc_dota_hero_disruptor.gif");
+}
+
+.enchantress {
+    -fx-image: url("portrait/npc_dota_hero_enchantress.jpg");
+}
+
+.enchantress:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_enchantress.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h86{
+    -fx-image: url("portrait_hero/npc_dota_hero_enchantress.gif");
+}
+
+.enigma {
+    -fx-image: url("portrait/npc_dota_hero_enigma.jpg");
+}
+
+.enigma:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_enigma.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h87{
+    -fx-image: url("portrait_hero/npc_dota_hero_enigma.gif");
+}
+
+.grimstroke {
+    -fx-image: url("portrait/npc_dota_hero_grimstroke.jpg");
+}
+
+.grimstroke:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_grimstroke.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h88{
+    -fx-image: url("portrait_hero/npc_dota_hero_grimstroke.gif");
+}
+
+.invoker {
+    -fx-image: url("portrait/npc_dota_hero_invoker.jpg");
+}
+
+.invoker:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_invoker.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h89{
+    -fx-image: url("portrait_hero/npc_dota_hero_invoker.gif");
+}
+
+.jakiro {
+    -fx-image: url("portrait/npc_dota_hero_jakiro.jpg");
+}
+
+.jakiro:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_jakiro.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h90{
+    -fx-image: url("portrait_hero/npc_dota_hero_jakiro.gif");
+}
+
+.keeper_of_the_light {
+    -fx-image: url("portrait/npc_dota_hero_keeper_of_the_light.jpg");
+}
+
+.keeper_of_the_light:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_keeper_of_the_light.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h91{
+    -fx-image: url("portrait_hero/npc_dota_hero_keeper_of_the_light.gif");
+}
+
+.leshrac {
+    -fx-image: url("portrait/npc_dota_hero_leshrac.jpg");
+}
+
+.leshrac:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_leshrac.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h92{
+    -fx-image: url("portrait_hero/npc_dota_hero_leshrac.gif");
+}
+
+.lich {
+    -fx-image: url("portrait/npc_dota_hero_lich.jpg");
+}
+
+.lich:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_lich.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h93{
+    -fx-image: url("portrait_hero/npc_dota_hero_lich.gif");
+}
+
+.lina {
+    -fx-image: url("portrait/npc_dota_hero_lina.jpg");
+}
+
+.lina:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_lina.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h94{
+    -fx-image: url("portrait_hero/npc_dota_hero_lina.gif");
+}
+
+.lion {
+    -fx-image: url("portrait/npc_dota_hero_lion.jpg");
+}
+
+.lion:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_lion.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h95{
+    -fx-image: url("portrait_hero/npc_dota_hero_lion.gif");
+}
+
+.furion {
+    -fx-image: url("portrait/npc_dota_hero_furion.jpg");
+}
+
+.furion:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_furion.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h96{
+    -fx-image: url("portrait_hero/npc_dota_hero_furion.gif");
+}
+
+.necrolyte {
+    -fx-image: url("portrait/npc_dota_hero_necrolyte.jpg");
+}
+
+.necrolyte:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_necrolyte.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h97{
+    -fx-image: url("portrait_hero/npc_dota_hero_necrolyte.gif");
+}
+
+.ogre_magi {
+    -fx-image: url("portrait/npc_dota_hero_ogre_magi.jpg");
+}
+
+.ogre_magi:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_ogre_magi.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h98{
+    -fx-image: url("portrait_hero/npc_dota_hero_ogre_magi.gif");
+}
+
+.oracle {
+    -fx-image: url("portrait/npc_dota_hero_oracle.jpg");
+}
+
+.oracle:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_oracle.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h99{
+    -fx-image: url("portrait_hero/npc_dota_hero_oracle.gif");
+}
+
+.obsidian_destroyer {
+    -fx-image: url("portrait/npc_dota_hero_obsidian_destroyer.jpg");
+}
+
+.obsidian_destroyer:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_obsidian_destroyer.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h100{
+    -fx-image: url("portrait_hero/npc_dota_hero_obsidian_destroyer.gif");
+}
+
+.puck {
+    -fx-image: url("portrait/npc_dota_hero_puck.jpg");
+}
+
+.puck:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_puck.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h101{
+    -fx-image: url("portrait_hero/npc_dota_hero_puck.gif");
+}
+
+.pugna {
+    -fx-image: url("portrait/npc_dota_hero_pugna.jpg");
+}
+
+.pugna:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_pugna.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h102{
+    -fx-image: url("portrait_hero/npc_dota_hero_pugna.gif");
+}
+
+.queenofpain {
+    -fx-image: url("portrait/npc_dota_hero_queenofpain.jpg");
+}
+
+.queenofpain:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_queenofpain.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h103{
+    -fx-image: url("portrait_hero/npc_dota_hero_queenofpain.gif");
+}
+
+.rubick {
+    -fx-image: url("portrait/npc_dota_hero_rubick.jpg");
+}
+
+.rubick:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_rubick.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h104{
+    -fx-image: url("portrait_hero/npc_dota_hero_rubick.gif");
+}
+
+.shadow_demon {
+    -fx-image: url("portrait/npc_dota_hero_shadow_demon.jpg");
+}
+
+.shadow_demon:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_shadow_demon.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h105{
+    -fx-image: url("portrait_hero/npc_dota_hero_shadow_demon.gif");
+}
+
+.shadow_shaman {
+    -fx-image: url("portrait/npc_dota_hero_shadow_shaman.jpg");
+}
+
+.shadow_shaman:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_shadow_shaman.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h106{
+    -fx-image: url("portrait_hero/npc_dota_hero_shadow_shaman.gif");
+}
+
+.silencer {
+    -fx-image: url("portrait/npc_dota_hero_silencer.jpg");
+}
+
+.silencer:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_silencer.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h107{
+    -fx-image: url("portrait_hero/npc_dota_hero_silencer.gif");
+}
+
+.skywrath_mage {
+    -fx-image: url("portrait/npc_dota_hero_skywrath_mage.jpg");
+}
+
+.skywrath_mage:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_skywrath_mage.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h108{
+    -fx-image: url("portrait_hero/npc_dota_hero_skywrath_mage.gif");
+}
+
+.storm_spirit {
+    -fx-image: url("portrait/npc_dota_hero_storm_spirit.jpg");
+}
+
+.storm_spirit:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_storm_spirit.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h109{
+    -fx-image: url("portrait_hero/npc_dota_hero_storm_spirit.gif");
+}
+
+.techies {
+    -fx-image: url("portrait/npc_dota_hero_techies.jpg");
+}
+
+.techies:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_techies.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h110{
+    -fx-image: url("portrait_hero/npc_dota_hero_techies.gif");
+}
+
+.tinker {
+    -fx-image: url("portrait/npc_dota_hero_tinker.jpg");
+}
+
+.tinker:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_tinker.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h111{
+    -fx-image: url("portrait_hero/npc_dota_hero_tinker.gif");
+}
+
+.visage {
+    -fx-image: url("portrait/npc_dota_hero_visage.jpg");
+}
+
+.visage:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_visage.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h112{
+    -fx-image: url("portrait_hero/npc_dota_hero_visage.gif");
+}
+
+.void_spirit {
+    -fx-image: url("portrait/npc_dota_hero_void_spirit.jpg");
+}
+
+.void_spirit:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_void_spirit.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h113{
+    -fx-image: url("portrait_hero/npc_dota_hero_void_spirit.gif");
+}
+
+.warlock {
+    -fx-image: url("portrait/npc_dota_hero_warlock.jpg");
+}
+
+.warlock:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_warlock.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h114{
+    -fx-image: url("portrait_hero/npc_dota_hero_warlock.gif");
+}
+
+.windrunner {
+    -fx-image: url("portrait/npc_dota_hero_windrunner.jpg");
+}
+
+.windrunner:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_windrunner.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h115{
+    -fx-image: url("portrait_hero/npc_dota_hero_windrunner.gif");
+}
+
+.winter_wyvern {
+    -fx-image: url("portrait/npc_dota_hero_winter_wyvern.jpg");
+}
+
+.winter_wyvern:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_winter_wyvern.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h116{
+    -fx-image: url("portrait_hero/npc_dota_hero_winter_wyvern.gif");
+}
+
+.witch_doctor {
+    -fx-image: url("portrait/npc_dota_hero_witch_doctor.jpg");
+}
+
+.witch_doctor:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_witch_doctor.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h117{
+    -fx-image: url("portrait_hero/npc_dota_hero_witch_doctor.gif");
+}
+
+.zuus {
+    -fx-image: url("portrait/npc_dota_hero_zuus.jpg");
+}
+
+.zuus:hover{
+    -fx-image: url("portrait_hero/npc_dota_hero_zuus.gif");
+    -fx-scale-x: 2.2;
+    -fx-scale-y: 2.2;
+}
+.h118{
+    -fx-image: url("portrait_hero/npc_dota_hero_zuus.gif");
+}

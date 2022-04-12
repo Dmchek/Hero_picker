@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="commons-codec-1.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/commons-codec-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/httpclient-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/openid4java-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
