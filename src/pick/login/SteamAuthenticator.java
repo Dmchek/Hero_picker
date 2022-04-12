@@ -5,6 +5,7 @@ import java.net.URL;
 import java.net.URLDecoder;
 import java.util.HashMap;
 import java.util.Map;
+
 import org.openid4java.association.AssociationException;
 import org.openid4java.consumer.ConsumerException;
 import org.openid4java.consumer.ConsumerManager;
@@ -38,7 +39,7 @@ public class SteamAuthenticator {
         return authRequest.getDestinationUrl(true);
     }
 
-    public  Map<String, String> splitQuery(URL url) throws UnsupportedEncodingException {
+    public Map<String, String> splitQuery(URL url) throws UnsupportedEncodingException {
         Map<String, String> queryPairs = new HashMap<String, String>();
         String query = url.getQuery();
         String[] pairs = query.split("&");

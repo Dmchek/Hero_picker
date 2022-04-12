@@ -19,12 +19,8 @@ import org.openid4java.message.MessageException;
 import pick.secret.api.SteamApi;
 import pick.steam.method.SteamMethod;
 
-
-
 import java.io.*;
-
 import java.net.URL;
-
 
 public class Login {
     CallBack callBack = new CallBack("http://localhost:8080");
@@ -34,15 +30,11 @@ public class Login {
     String code;
     SteamMethod methodS = new SteamMethod();
 
-
-
-
     @FXML
     private Button join;
 
     public Login() throws DiscoveryException {
     }
-
 
     @FXML
     void initialize() {
@@ -52,22 +44,20 @@ public class Login {
             final WebEngine engine = view.getEngine();
             try {
                 engine.load(login.getLoginUrl());
-
                 System.out.println(login.getLoginUrl());
                 stage.setScene(new Scene(view));
                 stage.show();
 
-
                 engine.locationProperty().addListener((observable, oldValue, newValue) -> {
                     if (newValue.startsWith(test)) {
-                            code = newValue;
+                        code = newValue;
                     }
-                    if(!code.equals("https://steamcommunity.com/openid/login")) {
+                    if (!code.equals("https://steamcommunity.com/openid/login")) {
                         try {
                             URL url = new URL(code);
                             String id = login.getVerifiedSteamId(login.splitQuery(url));
                             System.out.println(id);
-                            JSONObject jsObject = methodS.getLogin(key,id);
+                            JSONObject jsObject = methodS.getLogin(key, id);
                             FileWriter file = new FileWriter("user.json");
                             file.write(JSONValue.toJSONString(jsObject));
                             file.flush();
@@ -84,13 +74,8 @@ public class Login {
             } catch (MessageException | ConsumerException e) {
                 e.printStackTrace();
             }
-
-
         });
-
     }
-
-
 }
 
 

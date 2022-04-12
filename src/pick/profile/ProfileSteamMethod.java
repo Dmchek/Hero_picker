@@ -4,8 +4,7 @@ import org.json.JSONObject;
 
 public class ProfileSteamMethod {
 
-    public void getProfileMatch(JSONObject jsonObject){
-
+    public void getProfileMatch(JSONObject jsonObject) {
 
     }
 }

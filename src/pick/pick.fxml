@@ -6,400 +6,451 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane style="-fx-background-color: #848482;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pick.MainController">
-   <Pane cache="true" cacheHint="SCALE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" stylesheets="@portrait_hero.css">
-      <AnchorPane layoutX="30.0" layoutY="87.0">
-         <AnchorPane fx:id="h0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" styleClass="abaddon" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </ImageView>
-         </AnchorPane>
-         <AnchorPane fx:id="h1" layoutX="50.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" styleClass="alchemist">
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </ImageView>
-         </AnchorPane>
-         <AnchorPane fx:id="h2" layoutX="100.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="axe">
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </ImageView>
-         </AnchorPane>
-         <AnchorPane fx:id="h3" layoutX="150.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="beastmaster">
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </ImageView>
-         </AnchorPane>
-         <AnchorPane fx:id="h4" layoutX="200.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="brewmaster" />
-         </AnchorPane>
-         <AnchorPane fx:id="h5" layoutX="250.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="bristleback" />
-         </AnchorPane>
-         <AnchorPane fx:id="h6" layoutX="300.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="centaur" />
-         </AnchorPane>
-         <AnchorPane fx:id="h7" layoutX="350.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="chaos_knight" />
-         </AnchorPane>
-         <AnchorPane fx:id="h8" layoutX="400.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="rattletrap" />
-         </AnchorPane>
-         <AnchorPane fx:id="h9" layoutX="450.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="doom_bringer" />
-         </AnchorPane>
-         <AnchorPane fx:id="h10" layoutX="500.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="dragon_knight" />
-         </AnchorPane>
-         <AnchorPane fx:id="h11" layoutX="550.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="earth_spirit" />
-         </AnchorPane>
-         <AnchorPane fx:id="h12" layoutX="600.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="earthshaker" />
-         </AnchorPane>
-         <AnchorPane fx:id="h13" layoutX="650.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="elder_titan" />
-         </AnchorPane>
-         <AnchorPane fx:id="h14" layoutX="700.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="huskar" />
-         </AnchorPane>
-         <AnchorPane fx:id="h15" layoutX="750.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="wisp" />
-         </AnchorPane>
-         <AnchorPane fx:id="h16" layoutX="800.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="kunkka" />
-         </AnchorPane>
-         <AnchorPane fx:id="h17" layoutX="850.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="legion_commander" />
-         </AnchorPane>
-         <AnchorPane fx:id="h18" layoutX="900.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="life_stealer" />
-         </AnchorPane>
-         <AnchorPane fx:id="h19" layoutX="950.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="lycan" />
-         </AnchorPane>
-         <AnchorPane fx:id="h20" layoutX="1000.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="magnataur" />
-         </AnchorPane>
-         <AnchorPane fx:id="h21" layoutX="1050.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="mars" />
-         </AnchorPane>
-         <AnchorPane fx:id="h22" layoutX="1100.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="night_stalker" />
-         </AnchorPane>
-         <AnchorPane fx:id="h23" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="omniknight" />
-         </AnchorPane>
-         <AnchorPane fx:id="h24" layoutX="50.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="phoenix" />
-         </AnchorPane>
-         <AnchorPane fx:id="h25" layoutX="100.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="pudge" />
-         </AnchorPane>
-         <AnchorPane fx:id="h26" layoutX="150.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="sand_king" />
-         </AnchorPane>
-         <AnchorPane fx:id="h27" layoutX="200.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="slardar" />
-         </AnchorPane>
-         <AnchorPane fx:id="h28" layoutX="250.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="snapfire" />
-         </AnchorPane>
-         <AnchorPane fx:id="h29" layoutX="300.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="spirit_breaker" />
-         </AnchorPane>
-         <AnchorPane fx:id="h30" layoutX="350.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="sven" />
-         </AnchorPane>
-         <AnchorPane fx:id="h31" layoutX="400.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="tidehunter" />
-         </AnchorPane>
-         <AnchorPane fx:id="h32" layoutX="450.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="shredder" />
-         </AnchorPane>
-         <AnchorPane fx:id="h33" layoutX="500.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="tiny" />
-         </AnchorPane>
-         <AnchorPane fx:id="h34" layoutX="550.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="treant" />
-         </AnchorPane>
-         <AnchorPane fx:id="h35" layoutX="600.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="tusk" />
-         </AnchorPane>
-         <AnchorPane fx:id="h36" layoutX="650.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="abyssal_underlord" />
-         </AnchorPane>
-         <AnchorPane fx:id="h37" layoutX="700.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="undying" />
-         </AnchorPane>
-         <AnchorPane fx:id="h38" layoutX="750.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="skeleton_king" />
-         </AnchorPane>
-      </AnchorPane>
-      <AnchorPane layoutX="30.0" layoutY="282.0">
-         <AnchorPane fx:id="h39">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="antimage" />
-         </AnchorPane>
-         <AnchorPane fx:id="h40" layoutX="50.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="arc_warden" />
-         </AnchorPane>
-         <AnchorPane fx:id="h41" layoutX="100.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="bloodseeker" />
-         </AnchorPane>
-         <AnchorPane fx:id="h42" layoutX="150.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="bounty_hunter" />
-         </AnchorPane>
-         <AnchorPane fx:id="h43" layoutX="200.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="broodmother" />
-         </AnchorPane>
-         <AnchorPane fx:id="h44" layoutX="250.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="clinkz" />
-         </AnchorPane>
-         <AnchorPane fx:id="h45" layoutX="300.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="drow_ranger" />
-         </AnchorPane>
-         <AnchorPane fx:id="h46" layoutX="350.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="ember_spirit" />
-         </AnchorPane>
-         <AnchorPane fx:id="h47" layoutX="400.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="faceless_void" />
-         </AnchorPane>
-         <AnchorPane fx:id="h48" layoutX="450.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="gyrocopter" />
-         </AnchorPane>
-         <AnchorPane fx:id="h49" layoutX="500.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="juggernaut" />
-         </AnchorPane>
-         <AnchorPane fx:id="h50" layoutX="550.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="lone_druid" />
-         </AnchorPane>
-         <AnchorPane fx:id="h51" layoutX="600.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="luna" />
-         </AnchorPane>
-         <AnchorPane fx:id="h52" layoutX="650.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="medusa" />
-         </AnchorPane>
-         <AnchorPane fx:id="h53" layoutX="700.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="meepo" />
-         </AnchorPane>
-         <AnchorPane fx:id="h54" layoutX="750.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="mirana" />
-         </AnchorPane>
-         <AnchorPane fx:id="h55" layoutX="800.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="monkey_king" />
-         </AnchorPane>
-         <AnchorPane fx:id="h56" layoutX="850.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="morphling" />
-         </AnchorPane>
-         <AnchorPane fx:id="h57" layoutX="900.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="naga_siren" />
-         </AnchorPane>
-         <AnchorPane fx:id="h58" layoutX="950.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="nyx_assassin" />
-         </AnchorPane>
-         <AnchorPane fx:id="h59" layoutX="1000.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="pangolier" />
-         </AnchorPane>
-         <AnchorPane fx:id="h60" layoutX="1050.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="phantom_assassin" />
-         </AnchorPane>
-         <AnchorPane fx:id="h61" layoutX="1100.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="phantom_lancer" />
-         </AnchorPane>
-         <AnchorPane fx:id="h62" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="razor" />
-         </AnchorPane>
-         <AnchorPane fx:id="h63" layoutX="50.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="riki" />
-         </AnchorPane>
-         <AnchorPane fx:id="h64" layoutX="100.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="nevermore" />
-         </AnchorPane>
-         <AnchorPane fx:id="h65" layoutX="150.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="slark" />
-         </AnchorPane>
-         <AnchorPane fx:id="h66" layoutX="200.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="sniper" />
-         </AnchorPane>
-         <AnchorPane fx:id="h67" layoutX="250.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="spectre" />
-         </AnchorPane>
-         <AnchorPane fx:id="h68" layoutX="300.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="templar_assassin" />
-         </AnchorPane>
-         <AnchorPane fx:id="h69" layoutX="350.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="terrorblade" />
-         </AnchorPane>
-         <AnchorPane fx:id="h70" layoutX="400.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="troll_warlord" />
-         </AnchorPane>
-         <AnchorPane fx:id="h71" layoutX="450.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="ursa" />
-         </AnchorPane>
-         <AnchorPane fx:id="h72" layoutX="500.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="vengefulspirit" />
-         </AnchorPane>
-         <AnchorPane fx:id="h73" layoutX="550.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="venomancer" />
-         </AnchorPane>
-         <AnchorPane fx:id="h74" layoutX="600.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="viper" />
-         </AnchorPane>
-         <AnchorPane fx:id="h75" layoutX="650.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="weaver" />
-         </AnchorPane>
-      </AnchorPane>
-      <AnchorPane layoutX="30.0" layoutY="491.0">
-         <AnchorPane fx:id="h76">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="ancient_apparition" />
-         </AnchorPane>
-         <AnchorPane fx:id="h77" layoutX="50.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="bane" />
-         </AnchorPane>
-         <AnchorPane fx:id="h78" layoutX="100.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="batrider" />
-         </AnchorPane>
-         <AnchorPane fx:id="h79" layoutX="150.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="chen" />
-         </AnchorPane>
-         <AnchorPane fx:id="h80" layoutX="200.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="crystal_maiden" />
-         </AnchorPane>
-         <AnchorPane fx:id="h81" layoutX="250.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="dark_seer" />
-         </AnchorPane>
-         <AnchorPane fx:id="h82" layoutX="300.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="dark_willow" />
-         </AnchorPane>
-         <AnchorPane fx:id="h83" layoutX="350.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="dazzle" />
-         </AnchorPane>
-         <AnchorPane fx:id="h84" layoutX="400.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="death_prophet" />
-         </AnchorPane>
-         <AnchorPane fx:id="h85" layoutX="450.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="disruptor" />
-         </AnchorPane>
-         <AnchorPane fx:id="h86" layoutX="500.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="enchantress" />
-         </AnchorPane>
-         <AnchorPane fx:id="h87" layoutX="550.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="enigma" />
-         </AnchorPane>
-         <AnchorPane fx:id="h88" layoutX="600.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="grimstroke" />
-         </AnchorPane>
-         <AnchorPane fx:id="h89" layoutX="650.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="invoker" />
-         </AnchorPane>
-         <AnchorPane fx:id="h90" layoutX="700.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="jakiro" />
-         </AnchorPane>
-         <AnchorPane fx:id="h91" layoutX="750.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="keeper_of_the_light" />
-         </AnchorPane>
-         <AnchorPane fx:id="h92" layoutX="800.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="leshrac" />
-         </AnchorPane>
-         <AnchorPane fx:id="h93" layoutX="850.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="lich" />
-         </AnchorPane>
-         <AnchorPane fx:id="h94" layoutX="900.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="lina" />
-         </AnchorPane>
-         <AnchorPane fx:id="h95" layoutX="950.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="lion" />
-         </AnchorPane>
-         <AnchorPane fx:id="h96" layoutX="1000.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="furion" />
-         </AnchorPane>
-         <AnchorPane fx:id="h97" layoutX="1050.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="necrolyte" />
-         </AnchorPane>
-         <AnchorPane fx:id="h98" layoutX="1100.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="ogre_magi" />
-         </AnchorPane>
-         <AnchorPane fx:id="h99" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="oracle" />
-         </AnchorPane>
-         <AnchorPane fx:id="h100" layoutX="50.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="obsidian_destroyer" />
-         </AnchorPane>
-         <AnchorPane fx:id="h101" layoutX="100.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="puck" />
-         </AnchorPane>
-         <AnchorPane fx:id="h102" layoutX="150.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="pugna" />
-         </AnchorPane>
-         <AnchorPane fx:id="h103" layoutX="200.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="queenofpain" />
-         </AnchorPane>
-         <AnchorPane fx:id="h104" layoutX="250.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="rubick" />
-         </AnchorPane>
-         <AnchorPane fx:id="h105" layoutX="300.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="shadow_demon" />
-         </AnchorPane>
-         <AnchorPane fx:id="h106" layoutX="350.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="shadow_shaman" />
-         </AnchorPane>
-         <AnchorPane fx:id="h107" layoutX="400.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="silencer" />
-         </AnchorPane>
-         <AnchorPane fx:id="h108" layoutX="450.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="skywrath_mage" />
-         </AnchorPane>
-         <AnchorPane fx:id="h109" layoutX="500.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="storm_spirit" />
-         </AnchorPane>
-         <AnchorPane fx:id="h110" layoutX="550.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="techies" />
-         </AnchorPane>
-         <AnchorPane fx:id="h111" layoutX="600.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="tinker" />
-         </AnchorPane>
-         <AnchorPane fx:id="h112" layoutX="650.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="visage" />
-         </AnchorPane>
-         <AnchorPane fx:id="h113" layoutX="700.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="void_spirit" />
-         </AnchorPane>
-         <AnchorPane fx:id="h114" layoutX="750.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="warlock" />
-         </AnchorPane>
-         <AnchorPane fx:id="h115" layoutX="800.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="windrunner" />
-         </AnchorPane>
-         <AnchorPane fx:id="h116" layoutX="850.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="winter_wyvern" />
-         </AnchorPane>
-         <AnchorPane fx:id="h117" layoutX="900.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="witch_doctor" />
-         </AnchorPane>
-         <AnchorPane fx:id="h118" layoutX="950.0" layoutY="77.0">
-            <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="zuus" />
-         </AnchorPane>
-      </AnchorPane>
-      <AnchorPane layoutX="1230.0" layoutY="70.0" prefHeight="608.0" prefWidth="287.0" style="-fx-border-color: #000; -fx-background-color: #808080b9;">
-         <children>
-            <AnchorPane layoutX="14.0" layoutY="45.0" style="-fx-background-color: #000;">
-               <children>
-                  <ImageView fx:id="selected_hero" fitHeight="200.0" fitWidth="130.0" pickOnBounds="true" smooth="false" />
-                  <Pane layoutY="170.0" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #000000b9;">
-                     <children>
-                        <Text fx:id="hero_name" fill="WHITE" layoutY="20.0" smooth="false" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="130.0" />
-                     </children>
-                  </Pane>
-               </children>
+<AnchorPane style="-fx-background-color: #848482;" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="pick.MainController">
+    <Pane cache="true" cacheHint="SCALE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+          minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" stylesheets="@portrait_hero.css">
+        <AnchorPane layoutX="30.0" layoutY="87.0">
+            <AnchorPane fx:id="h0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" styleClass="abaddon"
+                           AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                           AnchorPane.topAnchor="0.0">
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </ImageView>
             </AnchorPane>
-         </children>
-      </AnchorPane>
-   </Pane>
+            <AnchorPane fx:id="h1" layoutX="50.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" styleClass="alchemist">
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </ImageView>
+            </AnchorPane>
+            <AnchorPane fx:id="h2" layoutX="100.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="axe">
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </ImageView>
+            </AnchorPane>
+            <AnchorPane fx:id="h3" layoutX="150.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="beastmaster">
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </ImageView>
+            </AnchorPane>
+            <AnchorPane fx:id="h4" layoutX="200.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="brewmaster"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h5" layoutX="250.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="bristleback"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h6" layoutX="300.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="centaur"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h7" layoutX="350.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="chaos_knight"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h8" layoutX="400.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="rattletrap"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h9" layoutX="450.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="doom_bringer"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h10" layoutX="500.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="dragon_knight"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h11" layoutX="550.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="earth_spirit"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h12" layoutX="600.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="earthshaker"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h13" layoutX="650.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="elder_titan"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h14" layoutX="700.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="huskar"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h15" layoutX="750.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="wisp"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h16" layoutX="800.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="kunkka"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h17" layoutX="850.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="legion_commander"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h18" layoutX="900.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="life_stealer"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h19" layoutX="950.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="lycan"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h20" layoutX="1000.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="magnataur"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h21" layoutX="1050.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="mars"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h22" layoutX="1100.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="night_stalker"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h23" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="omniknight"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h24" layoutX="50.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="phoenix"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h25" layoutX="100.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="pudge"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h26" layoutX="150.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="sand_king"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h27" layoutX="200.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="slardar"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h28" layoutX="250.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="snapfire"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h29" layoutX="300.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="spirit_breaker"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h30" layoutX="350.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="sven"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h31" layoutX="400.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="tidehunter"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h32" layoutX="450.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="shredder"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h33" layoutX="500.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="tiny"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h34" layoutX="550.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="treant"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h35" layoutX="600.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="tusk"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h36" layoutX="650.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="abyssal_underlord"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h37" layoutX="700.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="undying"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h38" layoutX="750.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="skeleton_king"/>
+            </AnchorPane>
+        </AnchorPane>
+        <AnchorPane layoutX="30.0" layoutY="282.0">
+            <AnchorPane fx:id="h39">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="antimage"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h40" layoutX="50.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="arc_warden"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h41" layoutX="100.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="bloodseeker"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h42" layoutX="150.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="bounty_hunter"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h43" layoutX="200.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="broodmother"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h44" layoutX="250.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="clinkz"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h45" layoutX="300.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="drow_ranger"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h46" layoutX="350.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="ember_spirit"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h47" layoutX="400.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="faceless_void"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h48" layoutX="450.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="gyrocopter"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h49" layoutX="500.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="juggernaut"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h50" layoutX="550.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="lone_druid"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h51" layoutX="600.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="luna"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h52" layoutX="650.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="medusa"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h53" layoutX="700.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="meepo"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h54" layoutX="750.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="mirana"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h55" layoutX="800.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="monkey_king"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h56" layoutX="850.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="morphling"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h57" layoutX="900.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="naga_siren"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h58" layoutX="950.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="nyx_assassin"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h59" layoutX="1000.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="pangolier"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h60" layoutX="1050.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="phantom_assassin"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h61" layoutX="1100.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="phantom_lancer"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h62" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="razor"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h63" layoutX="50.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="riki"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h64" layoutX="100.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="nevermore"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h65" layoutX="150.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="slark"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h66" layoutX="200.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="sniper"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h67" layoutX="250.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="spectre"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h68" layoutX="300.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="templar_assassin"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h69" layoutX="350.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="terrorblade"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h70" layoutX="400.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="troll_warlord"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h71" layoutX="450.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="ursa"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h72" layoutX="500.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="vengefulspirit"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h73" layoutX="550.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="venomancer"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h74" layoutX="600.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="viper"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h75" layoutX="650.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="weaver"/>
+            </AnchorPane>
+        </AnchorPane>
+        <AnchorPane layoutX="30.0" layoutY="491.0">
+            <AnchorPane fx:id="h76">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="ancient_apparition"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h77" layoutX="50.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="bane"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h78" layoutX="100.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="batrider"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h79" layoutX="150.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="chen"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h80" layoutX="200.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="crystal_maiden"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h81" layoutX="250.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="dark_seer"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h82" layoutX="300.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="dark_willow"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h83" layoutX="350.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="dazzle"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h84" layoutX="400.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="death_prophet"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h85" layoutX="450.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="disruptor"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h86" layoutX="500.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="enchantress"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h87" layoutX="550.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="enigma"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h88" layoutX="600.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="grimstroke"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h89" layoutX="650.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="invoker"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h90" layoutX="700.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="jakiro"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h91" layoutX="750.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="keeper_of_the_light"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h92" layoutX="800.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="leshrac"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h93" layoutX="850.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="lich"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h94" layoutX="900.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="lina"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h95" layoutX="950.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="lion"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h96" layoutX="1000.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="furion"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h97" layoutX="1050.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="necrolyte"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h98" layoutX="1100.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="ogre_magi"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h99" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="oracle"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h100" layoutX="50.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="obsidian_destroyer"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h101" layoutX="100.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="puck"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h102" layoutX="150.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="pugna"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h103" layoutX="200.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="queenofpain"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h104" layoutX="250.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="rubick"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h105" layoutX="300.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="shadow_demon"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h106" layoutX="350.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="shadow_shaman"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h107" layoutX="400.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="silencer"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h108" layoutX="450.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="skywrath_mage"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h109" layoutX="500.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="storm_spirit"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h110" layoutX="550.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="techies"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h111" layoutX="600.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="tinker"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h112" layoutX="650.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="visage"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h113" layoutX="700.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="void_spirit"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h114" layoutX="750.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="warlock"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h115" layoutX="800.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="windrunner"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h116" layoutX="850.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="winter_wyvern"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h117" layoutX="900.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false"
+                           styleClass="witch_doctor"/>
+            </AnchorPane>
+            <AnchorPane fx:id="h118" layoutX="950.0" layoutY="77.0">
+                <ImageView fitHeight="70.0" fitWidth="45.0" pickOnBounds="true" smooth="false" styleClass="zuus"/>
+            </AnchorPane>
+        </AnchorPane>
+        <AnchorPane layoutX="1230.0" layoutY="70.0" prefHeight="608.0" prefWidth="287.0"
+                    style="-fx-border-color: #000; -fx-background-color: #808080b9;">
+            <children>
+                <AnchorPane layoutX="14.0" layoutY="45.0" style="-fx-background-color: #000;">
+                    <children>
+                        <ImageView fx:id="selected_hero" fitHeight="200.0" fitWidth="130.0" pickOnBounds="true"
+                                   smooth="false"/>
+                        <Pane layoutY="170.0" prefHeight="30.0" prefWidth="130.0"
+                              style="-fx-background-color: #000000b9;">
+                            <children>
+                                <Text fx:id="hero_name" fill="WHITE" layoutY="20.0" smooth="false" stroke="WHITE"
+                                      strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER"
+                                      wrappingWidth="130.0"/>
+                            </children>
+                        </Pane>
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+    </Pane>
 </AnchorPane>

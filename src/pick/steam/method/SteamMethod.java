@@ -18,14 +18,14 @@ public class SteamMethod {
     }
 
     public JSONObject getMatchHistory(String key) throws IOException, JSONException {
-        return JsonParse.readJsonFromUrl("https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?key="+ key);
+        return JsonParse.readJsonFromUrl("https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?key=" + key);
     }
 
-    public JSONObject getMatchHistory(String key,String string) throws IOException, JSONException {
-        return JsonParse.readJsonFromUrl("https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?key="+ key + "&account_id=" + getAccountId(string) + "&matches_requested=10");
+    public JSONObject getMatchHistory(String key, String string) throws IOException, JSONException {
+        return JsonParse.readJsonFromUrl("https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?key=" + key + "&account_id=" + getAccountId(string) + "&matches_requested=10");
     }
 
-    public int getAccountId(String string){
+    public int getAccountId(String string) {
         long bufferId = Long.parseLong(string);
         return (int) bufferId;
     }

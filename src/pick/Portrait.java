@@ -1,7 +1,5 @@
 package pick;
 
-import javafx.collections.ObservableList;
-import javafx.collections.ObservableListBase;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 
@@ -14,8 +12,7 @@ public class Portrait {
     private ImageView selected;
     private Text name;
 
-
-    public void portraitHover(AnchorPane portraitPane, ImageView selected,Text name){
+    public void portraitHover(AnchorPane portraitPane, ImageView selected, Text name) {
         portraitPane.setOnMouseEntered(event -> portraitPane.toFront());
         portraitPane.setOnMouseExited(event -> portraitPane.toBack());
         portraitPane.addEventHandler(MouseEvent.MOUSE_CLICKED, me -> {
